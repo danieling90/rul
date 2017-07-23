@@ -10,6 +10,6 @@
     function rul() {
         var vm = this;
         
-        vm.test = "hola";
+        vm.test = "holita";
     }
 })();
