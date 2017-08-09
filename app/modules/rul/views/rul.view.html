@@ -1,1 +1,14 @@
-{{vm.test}}
+<input type="text" name="numbers" id="numbers" ng-model="vm.numbers">
+<button ng-click="vm.process()">Procesar</button>
+
+<div>
+    <label>Black:</label><span>{{vm.countBlack}}</span>
+    <label>Red:</label><span>{{vm.countRed}}</span>
+    <label>Green:</label><span>{{vm.countGreen}}</span>
+    <label>Cero:</label><span>{{vm.countCero}}</span>
+    <label>DoubleCero:</label><span>{{vm.countDoubleCero}}</span>
+    <label>Orphan:</label><span>{{vm.countOrphan}}</span>
+</div>
+<div ng-repeat="number in vm.numbersPlayedDesc">
+    <div>{{number.Number.Id}} [{{number.Count}}]</div>
+</div>
