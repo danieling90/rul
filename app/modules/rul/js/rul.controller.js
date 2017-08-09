@@ -14,9 +14,6 @@
         vm.numbersPlayed = [];
         vm.numbersPlayedDesc = [];
         
-<<<<<<< HEAD
-        vm.test = "holita";
-=======
         vm.countBlack = 0;
         vm.countRed = 0;
         vm.countGreen = 0;
@@ -67,6 +64,5 @@
         }
 
         init();
->>>>>>> 08782fa8be78778eacb8ccc83ba0b445b2cbc450
     }
 })();
