@@ -1,305 +1,306 @@
 var numbers = [
 	{
-		id: -1,
-		color: 'green',
-		zone: 'doubleCero',
-		right: 27,
-		left: 1,
-		typeNumber: 'cero'
+		Id: -1,
+		Color: 'green',
+		Zone: 'doubleCero',
+		Right: 27,
+		Left: 1,
+		TypeNumber: 'cero'
 	},
 	{
-		id: 0,
-		color: 'green',
-		right: 28,
-		left: 2,
-		typeNumber: 'cero'
+		Id: 0,
+		Color: 'green',
+		Zone: 'cero',
+		Right: 28,
+		Left: 2,
+		TypeNumber: 'cero'
 	},
 	{
-		id: 1,
-		color: 'red',
-		zone: 'doubleCero',
-		right: -1,
-		left: 13,
-		typeNumber: 'odd'
+		Id: 1,
+		Color: 'red',
+		Zone: 'doubleCero',
+		Right: -1,
+		Left: 13,
+		TypeNumber: 'odd'
 	},
 	{
-		id: 2,
-		color: 'black',
-		zone: 'cero',
-		right: 0,
-		left: 14,
-		typeNumber: 'even'
+		Id: 2,
+		Color: 'black',
+		Zone: 'cero',
+		Right: 0,
+		Left: 14,
+		TypeNumber: 'even'
 	},
 	{
-		id: 3,
-		color: 'red',
-		zone: 'doubleCero',
-		right: 24,
-		left: 15,
-		typeNumber: 'odd'
+		Id: 3,
+		Color: 'red',
+		Zone: 'doubleCero',
+		Right: 24,
+		Left: 15,
+		TypeNumber: 'odd'
 	},
 	{
-		id: 4,
-		color: 'black',
-		zone: 'cero',
-		right: 23,
-		left: 16,
-		typeNumber: 'even'
+		Id: 4,
+		Color: 'black',
+		Zone: 'cero',
+		Right: 23,
+		Left: 16,
+		TypeNumber: 'even'
 	},
 	{
-		id: 5,
-		color: 'red',
-		zone: 'orphan',
-		right: 22,
-		left: 17,
-		typeNumber: 'odd'
+		Id: 5,
+		Color: 'red',
+		Zone: 'orphan',
+		Right: 22,
+		Left: 17,
+		TypeNumber: 'odd'
 	},
 	{
-		id: 6,
-		color: 'black',
-		zone: 'orphan',
-		right: 21,
-		left: 18,
-		typeNumber: 'even'
+		Id: 6,
+		Color: 'black',
+		Zone: 'orphan',
+		Right: 21,
+		Left: 18,
+		TypeNumber: 'even'
 	},
 	{
-		id: 7,
-		color: 'red',
-		zone: 'cero',
-		right: 11,
-		left: 20,
-		typeNumber: 'odd'
+		Id: 7,
+		Color: 'red',
+		Zone: 'cero',
+		Right: 11,
+		Left: 20,
+		TypeNumber: 'odd'
 	},
 	{
-		id: 8,
-		color: 'black',
-		zone: 'doubleCero',
-		right: 19,
-		left: 12,
-		typeNumber: 'even'
+		Id: 8,
+		Color: 'black',
+		Zone: 'doubleCero',
+		Right: 19,
+		Left: 12,
+		TypeNumber: 'even'
 	},
 	{
-		id: 9,
-		color: 'red',
-		zone: 'cero',
-		right: 26,
-		left: 28,
-		typeNumber: 'odd'
+		Id: 9,
+		Color: 'red',
+		Zone: 'cero',
+		Right: 26,
+		Left: 28,
+		TypeNumber: 'odd'
 	},
 	{
-		id: 10,
-		color: 'black',
-		zone: 'doubleCero',
-		right: 25,
-		left: 27,
-		typeNumber: 'even'
+		Id: 10,
+		Color: 'black',
+		Zone: 'doubleCero',
+		Right: 25,
+		Left: 27,
+		TypeNumber: 'even'
 	},
 	{
-		id: 11,
-		color: 'black',
-		zone: 'cero',
-		right: 7,
-		left: 30,
-		typeNumber: 'odd'
+		Id: 11,
+		Color: 'black',
+		Zone: 'cero',
+		Right: 7,
+		Left: 30,
+		TypeNumber: 'odd'
 	},
 	{
-		id: 12,
-		color: 'red',
-		zone: 'doubleCero',
-		right: 8,
-		left: 29,
-		typeNumber: 'even'
+		Id: 12,
+		Color: 'red',
+		Zone: 'doubleCero',
+		Right: 8,
+		Left: 29,
+		TypeNumber: 'even'
 	},
 	{
-		id: 13,
-		color: 'black',
-		zone: 'doubleCero',
-		right: 1,
-		left: 36,
-		typeNumber: 'odd'
+		Id: 13,
+		Color: 'black',
+		Zone: 'doubleCero',
+		Right: 1,
+		Left: 36,
+		TypeNumber: 'odd'
 	}, {
-		id: 14,
-		color: 'red',
-		zone: 'cero',
-		right: 2,
-		left: 35,
-		typeNumber: 'even'
+		Id: 14,
+		Color: 'red',
+		Zone: 'cero',
+		Right: 2,
+		Left: 35,
+		TypeNumber: 'even'
 	},
 	{
-		id: 15,
-		color: 'black',
-		zone: 'doubleCero',
-		right: 3,
-		left: 34,
-		typeNumber: 'odd'
+		Id: 15,
+		Color: 'black',
+		Zone: 'doubleCero',
+		Right: 3,
+		Left: 34,
+		TypeNumber: 'odd'
 	},
 	{
-		id: 16,
-		color: 'red',
-		zone: 'cero',
-		right: 4,
-		left: 33,
-		typeNumber: 'even'
+		Id: 16,
+		Color: 'red',
+		Zone: 'cero',
+		Right: 4,
+		Left: 33,
+		TypeNumber: 'even'
 	},
 	{
-		id: 17,
-		color: 'black',
-		zone: 'orphan',
-		right: 5,
-		left: 32,
-		typeNumber: 'odd'
+		Id: 17,
+		Color: 'black',
+		Zone: 'orphan',
+		Right: 5,
+		Left: 32,
+		TypeNumber: 'odd'
 	},
 	{
-		id: 18,
-		color: 'red',
-		zone: 'orphan',
-		right: 6,
-		left: 31,
-		typeNumber: 'even'
+		Id: 18,
+		Color: 'red',
+		Zone: 'orphan',
+		Right: 6,
+		Left: 31,
+		TypeNumber: 'even'
 	},
 	{
-		id: 19,
-		color: 'red',
-		zone: 'orphan',
-		right: 31,
-		left: 8,
-		typeNumber: 'odd'
+		Id: 19,
+		Color: 'red',
+		Zone: 'orphan',
+		Right: 31,
+		Left: 8,
+		TypeNumber: 'odd'
 	},
 	{
-		id: 20,
-		color: 'black',
-		zone: 'orphan',
-		right: 32,
-		left: 7,
-		typeNumber: 'even'
+		Id: 20,
+		Color: 'black',
+		Zone: 'orphan',
+		Right: 32,
+		Left: 7,
+		TypeNumber: 'even'
 	},
 	{
-		id: 21,
-		color: 'red',
-		zone: 'orphan',
-		right: 33,
-		left: 6,
-		typeNumber: 'odd'
+		Id: 21,
+		Color: 'red',
+		Zone: 'orphan',
+		Right: 33,
+		Left: 6,
+		TypeNumber: 'odd'
 	},
 	{
-		id: 22,
-		color: 'black',
-		zone: 'orphan',
-		right: 34,
-		left: 5,
-		typeNumber: 'even'
+		Id: 22,
+		Color: 'black',
+		Zone: 'orphan',
+		Right: 34,
+		Left: 5,
+		TypeNumber: 'even'
 	},
 	{
-		id: 23,
-		color: 'red',
-		zone: 'cero',
-		right: 35,
-		left: 4,
-		typeNumber: 'odd'
+		Id: 23,
+		Color: 'red',
+		Zone: 'cero',
+		Right: 35,
+		Left: 4,
+		TypeNumber: 'odd'
 	},
 	{
-		id: 24,
-		color: 'black',
-		zone: 'doubleCero',
-		right: 36,
-		left: 3,
-		typeNumber: 'even'
+		Id: 24,
+		Color: 'black',
+		Zone: 'doubleCero',
+		Right: 36,
+		Left: 3,
+		TypeNumber: 'even'
 	},
 	{
-		id: 25,
-		color: 'red',
-		zone: 'doubleCero',
-		right: 29,
-		left: 10,
-		typeNumber: 'odd'
+		Id: 25,
+		Color: 'red',
+		Zone: 'doubleCero',
+		Right: 29,
+		Left: 10,
+		TypeNumber: 'odd'
 	},
 	{
-		id: 26,
-		color: 'black',
-		zone: 'cero',
-		right: 30,
-		left: 9,
-		typeNumber: 'even'
+		Id: 26,
+		Color: 'black',
+		Zone: 'cero',
+		Right: 30,
+		Left: 9,
+		TypeNumber: 'even'
 	},
 	{
-		id: 27,
-		color: 'red',
-		zone: 'doubleCero',
-		right: 10,
-		left: -1,
-		typeNumber: 'odd'
+		Id: 27,
+		Color: 'red',
+		Zone: 'doubleCero',
+		Right: 10,
+		Left: -1,
+		TypeNumber: 'odd'
 	},
 	{
-		id: 28,
-		color: 'black',
-		zone: 'cero',
-		right: 9,
-		left: 0,
-		typeNumber: 'even'
+		Id: 28,
+		Color: 'black',
+		Zone: 'cero',
+		Right: 9,
+		Left: 0,
+		TypeNumber: 'even'
 	},
 	{
-		id: 29,
-		color: 'black',
-		zone: 'doubleCero',
-		right: 12,
-		left: 25,
-		typeNumber: 'odd'
+		Id: 29,
+		Color: 'black',
+		Zone: 'doubleCero',
+		Right: 12,
+		Left: 25,
+		TypeNumber: 'odd'
 	},
 	{
-		id: 30,
-		color: 'red',
-		zone: 'cero',
-		right: 26,
-		left: 11,
-		typeNumber: 'even'
+		Id: 30,
+		Color: 'red',
+		Zone: 'cero',
+		Right: 26,
+		Left: 11,
+		TypeNumber: 'even'
 	},
 	{
-		id: 31,
-		color: 'black',
-		zone: 'orphan',
-		right: 18,
-		left: 19,
-		typeNumber: 'odd'
+		Id: 31,
+		Color: 'black',
+		Zone: 'orphan',
+		Right: 18,
+		Left: 19,
+		TypeNumber: 'odd'
 	},
 	{
-		id: 32,
-		color: 'red',
-		zone: 'orphan',
-		right: 17,
-		left: 20,
-		typeNumber: 'even'
+		Id: 32,
+		Color: 'red',
+		Zone: 'orphan',
+		Right: 17,
+		Left: 20,
+		TypeNumber: 'even'
 	},
 	{
-		id: 33,
-		color: 'black',
-		zone: 'orphan',
-		right: 16,
-		left: 21,
-		typeNumber: 'odd'
+		Id: 33,
+		Color: 'black',
+		Zone: 'orphan',
+		Right: 16,
+		Left: 21,
+		TypeNumber: 'odd'
 	},
 	{
-		id: 34,
-		color: 'red',
-		zone: 'orphan',
-		right: 15,
-		left: 22,
-		typeNumber: 'even'
+		Id: 34,
+		Color: 'red',
+		Zone: 'orphan',
+		Right: 15,
+		Left: 22,
+		TypeNumber: 'even'
 	},
 	{
-		id: 35,
-		color: 'black',
-		zone: 'cero',
-		right: 14,
-		left: 23,
-		typeNumber: 'odd'
+		Id: 35,
+		Color: 'black',
+		Zone: 'cero',
+		Right: 14,
+		Left: 23,
+		TypeNumber: 'odd'
 	},
 	{
-		id: 36,
-		color: 'red',
-		zone: 'doubleCero',
-		right: 13,
-		left: 24,
-		typeNumber: 'even'
+		Id: 36,
+		Color: 'red',
+		Zone: 'doubleCero',
+		Right: 13,
+		Left: 24,
+		TypeNumber: 'even'
 	}
 
 ];
